@@ -1,0 +1,235 @@
+body{ margin: 0; padding: 0; background-color: #FCF4D9; font-family: 'Calibri'}
+
+header {
+  background-color:#FF7A5A;
+  color:white;
+  padding:5px;
+  height:80px;
+  width: 100%;     
+}
+#sidebar{
+  width: 280px;
+  height:500px;
+  float:left;
+  background: #FFB85F;
+  word-wrap: break-word;
+}
+
+#body{margin-left: 1%; margin-top: 15px; width: 97.5%; height: auto; position: absolute;}
+#wrapper{width: 950px; height: 550px ;margin-left: 5%; margin-top: 0px; overflow: scroll; padding-left: 3%;}
+
+
+/*-----------------------------------ACCORDION----------------------*/
+button.accordion {
+  background-color: #FFB85F;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 20pt;
+  font-family: 'Patrick Hand';
+  transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+  background-color: #00AAA0;
+}
+
+button.accordion:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+button.accordion.active:after {
+  content: "\2796";
+}
+
+div.panel {
+  padding:0 0 0 18px;
+  width:100%;
+  background-color: #FFB85F;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.6s ease-in-out;
+  opacity: 0;
+
+}
+
+div.panel.show {
+  opacity: 1;
+  max-height: 500px;
+  width:80%;
+
+}
+a.panel-accor{
+  text-decoration: none; 
+  color: #444;  
+  font-family: 'Patrick Hand';
+  font-size: 18pt;
+  display: block;
+}
+a.panel-accor.active, a.panel-accor:hover {
+  color: #fff;
+
+}
+
+a.hover{
+  background-color: #00AAA0;
+}
+
+button.no-accordion {
+  background-color: #FFB85F;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+
+}
+button.no-accordion.active, button.no-accordion:hover {
+  background-color: #00AAA0;
+
+}
+a.no-accordion{
+  text-decoration: none;
+  display: block;
+  font-family: 'Patrick Hand';
+  font-size: 20pt;
+  color: #444;
+}
+
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+  font-family:Arial;
+  font-size:1.3em;
+  text-decoration: none;
+  color: black;
+  background: #c2060a;
+  text-align: center;
+  margin-right : 20px;
+  margin-top: 20px;
+  display: none;
+  float : right;
+  cursor:pointer;
+}
+.tombol
+{
+  background : #EEF66C;
+  border-radius : 10px;
+  cursor : pointer;
+  width:50px;
+  height:20px;
+  margin-left:400px;
+  text-decoration: none; color: #444;  font-family: 'Patrick Hand';font-size: 18pt; 
+}
+
+/*---------------------------------FONT------------------------------------*/
+h1 {
+  font-family: 'Patrick Hand';
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: 5%;
+  margin-left: 35%;
+}
+h2 {
+ font-family: 'Patrick Hand';
+ font-size: 20pt;
+ color:#F26524;
+ text-decoration: bold;
+}
+
+h3 {
+  font-family: 'Patrick Hand';
+  font-size: 20pt;
+  color:black;
+  text-decoration: bold;
+}
+h4 {
+  font-family: 'Patrick Hand';
+  font-size: 14pt;
+  color:#30BFC1;
+  text-decoration: bold;
+}
+h5 {
+  font-family: 'Patrick Hand';
+  font-size: 30pt;
+  color:black;
+}
+h6 {
+  font-family: 'Patrick Hand';
+  font-size: 28pt;
+  color:black;
+  float:left;
+  margin-left:40% 
+
+}
+/*-----------------------------------TABLE--------------------------------*/
+.tablesorter {
+  width: 100%;
+  margin: -5px 0 0 0;
+  text-decoration: none; color: #444;  font-family: 'Patrick Hand';font-size: 18pt;
+}
+
+.tablesorter td{
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px dotted #ccc;
+  text-decoration: none; color: #444;  font-family: 'Patrick Hand';font-size: 14pt;
+}
+
+.tablesorter thead tr {
+  height: 34px;
+  background: url(image/table_sorter_header.png) repeat-x;
+  text-align: left;
+  text-indent: 10px;
+  cursor: pointer;
+ 
+}
+
+.tablesorter td {
+  padding: 15px 10px;
+}
+
+table {
+width:800px;
+margin-left:20px;}
+
+table tr{
+ 
+
+}
+/*-------------------------MEDIA SCREEN----------------------------------------*/
+@media screen and (max-width: 768px) {
+  #wrapper {
+    width:75%;
+  }
+
+  h1 {
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 3%;
+  margin-left: 30%;
+  }
+
+  header{
+
+            height: 6em;
+            width: 100%;
+            margin-right: 10%;
+
+  }
+
+
+#sidebar
+{
+  visibility: hidden;
+}
+

@@ -1,0 +1,317 @@
+body{ margin: 0; padding: 0; background-color: #FCF4D9; font-family: 'Calibri'}
+
+header {
+  background-color:#FF7A5A;
+  color:white;
+  padding:5px;
+  height:80px;
+  width: 100%;     
+}
+#sidebar{
+  width: 280px;
+  height:500px;
+  float:left;
+  background: #FFB85F;
+  word-wrap: break-word;
+}
+
+#body{margin-left: 1%; margin-top: 15px; width: 97.5%; height: auto; position: absolute;}
+#wrapper{width: 950px; height: 550px ;margin-left: 5%; margin-top: 0px; overflow: scroll; padding-left: 3%;}
+
+
+/*-----------------------------------ACCORDION----------------------*/
+button.accordion {
+  background-color: #FFB85F;
+  color: #444;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 20pt;
+  font-family: 'Patrick Hand';
+  transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+  background-color: #00AAA0;
+}
+
+button.accordion:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+button.accordion.active:after {
+  content: "\2796";
+}
+
+div.panel {
+  padding:0 0 0 18px;
+  width:100%;
+  background-color: #FFB85F;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.6s ease-in-out;
+  opacity: 0;
+
+}
+
+div.panel.show {
+  opacity: 1;
+  max-height: 500px;
+  width:80%;
+
+}
+a.panel-accor{
+  text-decoration: none; 
+  color: #444;  
+  font-family: 'Patrick Hand';
+  font-size: 18pt;
+  display: block;
+}
+a.panel-accor.active, a.panel-accor:hover {
+  color: #fff;
+
+}
+
+a.hover{
+  background-color: #00AAA0;
+}
+
+button.no-accordion {
+  background-color: #FFB85F;
+  cursor: pointer;
+  padding: 18px;
+  font-size:30px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+
+}
+button.no-accordion.active, button.no-accordion:hover {
+  background-color: #00AAA0;
+
+}
+a.no-accordion{
+  text-decoration: none;
+  display: block;
+  font-family: 'Patrick Hand';
+  font-size: 20pt;
+  color: #444;
+}
+
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+  font-family:Arial;
+  font-size:1.3em;
+  text-decoration: none;
+  color: black;
+  background: #c2060a;
+  text-align: center;
+  margin-right : 20px;
+  margin-top: 20px;
+  display: none;
+  float : right;
+  cursor:pointer;
+}
+
+
+/*---------------------------------FONT------------------------------------*/
+h1 {
+  font-family: 'Patrick Hand';
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: 5%;
+  margin-left: 35%;
+}
+h2 {
+ font-family: 'Patrick Hand';
+ font-size: 20pt;
+ color:#F26524;
+ text-decoration: bold;
+}
+
+h3 {
+  font-family: 'Patrick Hand';
+  font-size: 20pt;
+  color:black;
+  text-decoration: bold;
+}
+h4 {
+  font-family: 'Patrick Hand';
+  font-size: 14pt;
+  color:#30BFC1;
+  text-decoration: bold;
+}
+h5 {
+  font-family: 'Patrick Hand';
+  font-size: 30pt;
+  color:black;
+}
+
+/*-----------------------------------TABLE--------------------------------*/
+.tablesorter {
+  width: 100%;
+  margin: -5px 0 0 0;
+}
+
+.tablesorter td{
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+.tablesorter thead tr {
+  height: 34px;
+  background: url(image/table_sorter_header.png) repeat-x;
+  text-align: left;
+  text-indent: 10px;
+  cursor: pointer;
+}
+
+.tablesorter td {
+  padding: 15px 10px;
+}
+
+/*------------------tambahan jihada----------------*/
+
+.tombol {
+    background-color: #EEF66C; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-family: 'Patrick Hand';
+}
+
+
+.tombol:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 10px 50px 0 rgba(0,0,0,0.1);
+}
+/*------------BUAT TABLE PROFILE----------*/
+h6{ 
+  padding-bottom: 0;
+  margin-top:0;
+  font-family: 'Patrick Hand';
+  font-size: 20pt;
+}
+
+td{
+  padding: 10px 10px 10px 0px;
+  font-family: 'Patrick Hand';
+  font-size: 20pt;
+  }
+
+.profile-line{
+  border-bottom:  3px dashed #EEF66C;
+}
+
+.edit-prof input[type=text],
+.edit-prof input[type=email],
+.edit-prof input[type=date],
+.edit-prof input[type=password] 
+{
+  background: transparent;
+  border: none;
+  border-bottom:3px dashed #EEF66C;
+  width: 80%;
+  outline: none;
+  padding: 0px 0px 10px 0px;
+  font-family:'Patrick Hand';
+  font-size: 20pt;
+}
+
+
+.edit-prof input[type=text]:focus,
+.edit-prof input[type=email]:focus,
+.edit-prof input[type=date]:focus,
+.edit-prof input[type=password]:focus
+{
+  border-bottom: 3px dashed #FDB813;
+}
+/*box foto di profile*/
+.polaroid {
+  position: relative;
+  width: 170px;
+}
+ 
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+ 
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+}
+
+@media only screen and (max-width:768px){
+	header {
+  background-color:#FF7A5A;
+  color:white;
+  padding:5px;
+  height:60px;
+  width: 740px;     
+}
+
+#sidebar{
+  width: 140px;
+  height: 500px;
+  float:left;
+  background: #FFB85F;
+  word-wrap: break-word;
+}
+h1 {
+  font-family: 'Patrick Hand';
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 5%;
+  margin-left: 36%;
+}
+
+#wrapper{
+width: 550px;
+ height: 500px ;
+ margin-left: 5%; margin-top: 0px;
+ overflow: scroll; padding-left: 3%;}
+
+ h5 {
+  font-family: 'Patrick Hand';
+  font-size: 18pt;
+  color:black;
+}
+td.pro-td{
+ font-size: 17pt;
+
+}
+td.profile-line{
+ font-size: 13pt;
+
+}
+
+input.edit_prof{
+font-size: 12pt;
+
+}
+}
