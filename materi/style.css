@@ -1,0 +1,334 @@
+#wrapper {
+	width: 1240px;	
+	max-width: 100%;
+}
+#header {
+	height: 10em;
+	width: 100%;
+	margin-left:60px;
+	margin-bottom :0;
+}
+img .head1{
+width:700px;
+}
+#navbar{
+	width:1240px;
+	height:70px;
+	margin-left:60px;
+}
+nav{
+	width:1240px;
+	height:50px;
+	background: #F26524; 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	list-style: none;
+	padding-bottom:20px;
+}
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+nav ul {
+		list-style: none;
+	position: relative;
+	display: inline-block;
+}
+	
+nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: #ED2071;
+		color:white;
+	}
+		nav ul li:hover a {
+			color: #ED2071;
+			background: #F26524;
+		}
+	
+	nav ul li a {
+		display: block; padding: 0px 38px 0px 38px;
+		color: #fff; text-decoration: none;
+
+	}
+nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+
+		float: none; 
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 8px 40px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #F26524; 
+				color: #fff;
+			}
+
+
+h1 {
+	font-family: 'Patrick Hand';
+	font-size: 14pt;
+}
+h2 {
+	font-family: 'Patrick Hand', cursive;
+	font-size: 1em;
+}
+
+h3 {
+	font-family: 'Patrick Hand';
+	font-size: 36pt;
+	color:#F26524;
+	text-decoration: bold;
+}
+h4 {
+	font-family: 'Patrick Hand';
+	font-size: 14pt;
+	color:#30BFC1;
+	text-decoration: bold;
+}
+/*tamb*/
+h5{
+	margin-bottom: 0;
+	font-family: 'Patrick Hand';
+	font-size: 20pt;
+	color:#30BFC1;
+
+}
+h6{ 
+	padding-bottom: 0;
+	margin-top:0;
+	font-family: 'Patrick Hand';
+	font-size: 20pt;
+}
+
+.no-pad{
+	margin-bottom: 0;
+}
+
+td{
+	padding: 10px 10px 10px 0px;
+	font-family: 'Patrick Hand';
+	font-size: 20pt;
+	}
+
+/*tambahan selesai disini*/
+#sidebar{
+	margin-top:15px;
+	width: 250px;
+	height:500px;
+	float:left;
+	margin-left: 60px;
+	display: block;
+	background: #F9AD3B;
+	word-wrap: break-word;
+	padding-left: 0px; /*dirubah jadi 0*/
+}
+
+#main{
+	display: block;
+	margin-top:15px;
+	width:890px;
+	float:left;
+	margin-left: 20px;
+	padding-left:10px;
+	word-wrap: break-word;
+}
+
+/*selesai tambahan*/
+
+
+
+
+
+
+.ui-tabs 							{ zoom: 1; }
+.ui-tabs .ui-tabs-nav 				{ list-style: none; position: relative; padding: 0; overflow: hidden; 
+									  top: 16px; z-index: 1000; }
+.ui-tabs .ui-tabs-nav li 			{ position: relative; float: left;  border-top-left-radius: 10px; border-top-right-radius: 10px;
+									  border-bottom-width: 0 !important; margin: 0 2px -1px 0; background:  #EEF66C; }
+.ui-tabs .ui-tabs-nav li a 			{ float: left; text-decoration: none; padding: 5px 14px; color: black; }
+.ui-tabs .ui-tabs-nav 
+li.ui-tabs-selected 				{ padding-bottom: 1px; border-bottom-width: 0; background: #E4F6F8; }
+.ui-tabs .ui-tabs-nav 
+li.ui-tabs-selected a, .ui-tabs 
+.ui-tabs-nav li.ui-state-disabled a, 
+.ui-tabs .ui-tabs-nav 
+li.ui-state-processing a 			{ cursor: text; } 
+.ui-tabs .ui-tabs-nav li a, 
+.ui-tabs.ui-tabs-collapsible 
+.ui-tabs-nav li.ui-tabs-selected a  { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel 			{ padding: 20px; display: block; border-width: 0; background: #E4F6F8; border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+									  border: 0; position: relative; min-height: 250px; }
+.ui-tabs .ui-tabs-hide 				{ display: none !important; }
+
+
+
+
+a.mover 							{ background: #2AD7DA; padding: 14px 18px; position: absolute;
+								      color: white; font-weight: bold; text-decoration: none; }
+.next-tab 							{ bottom: 0; right: 0;border-bottom-right-radius: 10px; -moz-border-radius-topleft: 10px; -webkit-border-top-left-radius: 10px; }
+.prev-tab 							{ bottom: 0; left: 0;border-bottom-left-radius: 10px; -moz-border-radius-topright: 10px; -webkit-border-top-right-radius: 10px; }
+
+/*buat bikin underline di teks input*/
+.edit-prof input[type=text],
+.edit-prof input[type=email],
+.edit-prof input[type=date],
+.edit-prof input[type=password] 
+{
+	background: transparent;
+	border: none;
+	border-bottom:3px dashed #EEF66C;
+	width: 450px;
+	outline: none;
+	padding: 0px 0px 10px 0px;
+	font-family:'Patrick Hand';
+	font-size: 20pt;
+}
+
+
+.edit-prof input[type=text]:focus,
+.edit-prof input[type=email]:focus,
+.edit-prof input[type=date]:focus,
+.edit-prof input[type=password]:focus
+{
+	border-bottom: 3px dashed #FDB813;
+}
+/*box foto di profile*/
+.polaroid {
+  position: relative;
+  width: 220px;
+}
+ 
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+ 
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+}
+
+/*ukuran khusus panel foodfact*/
+.foodfact{
+	width: 80%;
+	height: 400px;
+	padding : 30px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/*bikin kolom pertama jadi tebel dan biru : di profile*/
+.pro-td{
+	font-size: 24pt;
+	color:#30BFC1;
+	font-weight: bold;
+}
+
+/*Accordion di sidebar*/
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: 'Patrick Hand';
+	font-size: 20pt;
+	background-color: #F9AD3B;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;  
+}
+a.panel-accor{
+	text-decoration: none; 
+	color: #444;  
+	font-family: 'Patrick Hand';
+	font-size: 18pt;
+	display: block;
+}
+a.panel-accor.active, a.panel-accor:hover {
+    color: #F9AD3B;
+
+}
+button.no-accordion {
+    background-color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    background-color: #F9AD3B;
+}
+button.no-accordion.active, button.no-accordion:hover {
+    background-color: #ddd;
+    
+}
+a.no-accordion{
+	text-decoration: none;
+	display: block;
+	font-family: 'Patrick Hand';
+	font-size: 20pt;
+	color: #444;
+}
+
+
+@media only screen and (max-width:768px){
+#header {
+	height: 10em;
+	width:400px;
+	margin-left:60px;
+	margin-bottom :0;
+}
+
+}
+

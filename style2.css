@@ -1,0 +1,618 @@
+header{
+		height:550px ;
+		width:1337px;
+		background-image:url('img/13.jpg');
+		font-family:Patrick Hand, Helvetica, sans-serif; color:white;
+		font-size:110px;
+		text-align:center;
+		padding-top:130px;
+		}
+.head{
+padding-top:40px;
+font-family:Patrick Hand; color:white;
+font-size:43px;
+font-style:bold;
+}
+
+.bg{
+background-size: 100%; background-repeat: no-repeat;
+margin-top:10px;
+background-image:url(Img/arrow.png); width:80px;height:90px; margin:auto;}
+
+
+.a1{
+
+padding-top:30px;
+background-color:orangered;
+width:1337px;
+height:400px;
+font-size:50px;
+color:#FFFF00;
+font-style: italic;
+font-family:Lucida Sans Typewriter;
+}
+
+.got{
+padding-top:-10px;
+font-family: 'Patrick Hand'; color:white;
+font-size:25px;
+}
+
+.gothome{
+padding-top:-10px;
+font-family: 'Patrick Hand'; color:white;
+font-size:25px;
+}
+.button {
+    background-color:#00BFFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+	font-family: 'Patrick Hand';
+    margin-top: 30px;
+    cursor: pointer;
+    width: 230px;
+    height: 70px;
+    border-radius: 8px;
+	
+}
+.buttonhome {
+    background-color:#00BFFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+	font-family: 'Patrick Hand';
+    margin-top: 30px;
+    cursor: pointer;
+    width: 230px;
+    height: 70px;
+    border-radius: 8px;
+	
+}
+
+.a2{
+font-style: italic;
+font-family:Lucida Sans Typewriter;
+font-size:60px;
+text-align:center;
+padding-top:32px;
+    background-color:#00BFFF;
+    height: 480px;
+    color: aliceblue;
+}
+
+.a3{
+font-style: italic;
+font-family:Patrick Hand;
+font-size:30px;
+text-align:center;
+padding-top:12px;
+    color:yellow;
+    font-style: normal;
+}
+
+.a4{
+font-family:Calibri; color:white;
+font-size:23px;
+font-style: normal;
+}
+
+.a5{
+padding-top:30px;
+background-color:orangered;
+width:1337px;
+height:200px;
+font-size:37px;
+color:white;
+font-style: italic;
+font-family:Lucida Sans Typewriter;
+}
+
+.a6{
+padding-top:30px;
+width:1337px;
+height:150px;
+    color: color:#FFFF00;
+font-size:45px;
+font-style: italic;
+font-family:Lucida Sans Typewriter;
+}
+
+.a66{
+font-family:Patrick Hand;
+font-size:34px;
+    font-style: normal;
+    color: orangered;
+}
+
+.a666{
+font-family:Kozuka Mincho Pro H; 
+font-size:24px;
+    font-style: normal;
+ 
+}
+.a71{
+    
+    background-color: aqua;
+    width: 
+    h
+}
+
+input[type=text ] {
+    margin-top:12px;
+	width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 5px solid yellow;
+    border-radius: 7px;
+}
+
+input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 5px solid yellow;
+    border-radius: 7px;
+}
+
+.formlog{
+padding-top:40px;
+font-family: 'Patrick Hand'; color:white;
+font-size:20px;
+    font-style: normal
+}
+
+.a9{
+padding-top:30px;
+background-color:orangered;
+width:1337px;
+height:420px;
+font-size:65px;
+color:#FFFF00;
+font-style: normal;
+font-family: 'Patrick Hand';
+}
+
+.footlog{
+
+padding-top:10px;
+background-color:peachpuff;
+width:1337px;
+height:236px;
+}
+
+img.bwh{
+width:110px;
+height:90px;
+}
+
+img.ghome1{
+width:380px;
+height:220px;
+}
+img.ghome2{
+width:270px;
+height:230px;
+}
+img.ghome3{
+width:280px;
+height:220px;
+}
+
+/*===========================================================================================*/
+
+@media only screen and (max-width:768px){
+
+
+/*---------------------------home------------------------------------------*/
+header{
+		height:280px ;
+		width:768px;
+		font-size:46px;
+		padding-top:30px;
+		}
+.head{
+padding-top:20px;
+ color:white;
+font-size:20px;
+font-style:bold;
+}
+.a1{
+
+padding-top:30px;
+background-color:orangered;
+width:768px;
+height:230px;
+font-size:25px;
+color:#FFFF00;
+font-style: italic;
+font-family:Lucida Sans Typewriter;
+}
+.gothome{
+padding-top:-10px;
+font-family:Book Antiqua; color:white;
+font-size:17px;
+}
+
+.buttonhome {
+    background-color:#00BFFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+	
+}
+
+.a2{
+font-style: italic;
+font-family:Lucida Sans Typewriter;
+font-size:30px;
+width:768px;
+text-align:center;
+padding-top:32px;
+    background-color:#00BFFF;
+    height: 360px;
+    color: aliceblue;
+}
+
+.a3{
+font-style: italic;
+font-family:Calibri;
+font-size:26px;
+font-style: normal;
+text-align:center;
+padding-top:12px;
+    color:yellow;
+    
+}
+
+.a4{
+font-family:Calibri; color:white;
+font-size:17px;
+font-style: normal;
+width:150px;
+}
+
+.a5{
+padding-top:30px;
+background-color:orangered;
+width:768px;
+height:140px;
+font-size:17px;
+color:white;
+font-style: italic;
+font-family:Lucida Sans Typewriter;
+}
+
+.a6{
+padding-top:30px;
+width:768px;
+height:100px;
+    color: color:#FFFF00;
+font-size:20px;
+font-style: italic;
+font-family:Lucida Sans Typewriter;
+}
+
+.a66{
+font-family:Calibri; 
+font-size:17px;
+    font-style: normal;
+    color: orangered;
+}
+
+img.ghome1{
+width:150px;
+height:160px;
+}
+img.ghome2{
+width:130px;
+height:140px;
+}
+img.ghome3{
+width:100px;
+height:140;
+}
+
+.a666{
+font-family:Kozuka Mincho Pro H; 
+font-size:16px;
+    font-style: normal;
+}
+img.bwh{
+width:60px;
+height:40px;
+}
+/*---------------------------Login-------------------------------------------*/
+
+.a9{
+padding-top:30px;
+margin-right:80px;
+width:750px;
+height:340px;
+font-size:40px;
+}
+
+.footlog{
+padding-top:10px;
+background-color:peachpuff;
+width:750px;
+height:120px;
+}
+
+img.FL1 {
+width:190px;
+height:90px;
+}
+
+.got{
+ margin-top: 40px;;
+padding-top:-10px;
+ color:white;
+font-size:25px;
+}
+.formlog{
+padding-top:40px;
+ color:white;
+font-size:23px;
+    font-style: normal
+}
+input[type=text ] {
+    width: 30%;
+    padding: 3px 20px;
+    margin: 13px 0;
+    border: 3px solid yellow;
+    border-radius: 3px;
+}
+
+input[type=password] {
+    idth: 30%;
+    padding: 3px 20px;
+    margin: 13px 0;
+    border: 3px solid yellow;
+    border-radius: 3px;
+}
+.button {
+    background-color:#00BFFF;
+    border: none;
+    color: white;
+    padding: 3px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 2px;
+    cursor: pointer;
+    width: 190px;
+    height: 50px;
+    border-radius: 8px;
+	
+}
+}
+
+/**
+
+/*===========================================================================================*/
+
+@media only screen and (max-width:400px){
+
+/*---------------------------home------------------------------------------*/
+header{
+		height:150px ;
+		width:398px;
+		font-size:30px;
+		padding-top:30px;
+		}
+.head{
+padding-top:15px;
+ color:white;
+font-size:10px;
+font-style:bold;
+width:385px;
+}
+.a1{
+
+padding-top:30px;
+background-color:orangered;
+width:400px;
+height:140px;
+font-size:20px;
+color:#FFFF00;
+font-style: italic;
+
+}
+.gothome{
+padding-top:-10px;
+ color:white;
+font-size:12px;
+}
+
+
+
+.buttonhome {
+    padding: 2px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+	
+}
+
+.a2{
+font-style: italic;
+font-family:Lucida Sans Typewriter;
+font-size:18px;
+text-align:center;
+padding-top:32px;
+    background-color:#00BFFF;
+    height: 240px;
+	width: 400px;
+    color: aliceblue;
+}
+
+.a3{
+font-style: italic;
+font-family:Calibri;
+font-size:16px;
+font-style: normal;
+text-align:center;
+padding-top:10px;
+    color:yellow;
+    
+}
+
+.a4{
+font-family:Calibri; color:white;
+font-size:12px;
+font-style: normal;
+width:80px;
+}
+
+.a5{
+padding-top:30px;
+background-color:orangered;
+width:400px;
+height:100px;
+font-size:13px;
+color:white;
+font-style: italic;
+font-family:Lucida Sans Typewriter;
+}
+
+.a6{
+padding-top:30px;
+width:400px;
+height:150px;
+    color: color:#FFFF00;
+font-size:17px;
+font-style: italic;
+font-family:Lucida Sans Typewriter;
+}
+
+.a66{
+font-family:Calibri; 
+font-size:13px;
+    font-style: normal;
+    color: orangered;
+}
+.a666{
+font-family:Kozuka Mincho Pro H; 
+font-size:10px;
+    font-style: normal;
+ 
+}
+
+img.ghome1{
+width:80px;
+height:70px;
+}
+img.ghome2{
+width:70px;
+height:70px;
+}
+img.ghome3{
+width:120px;
+height:60;
+}
+
+img.bwh{
+width:40px;
+height:25px;
+}
+
+/*---------------------------login----------------------------------------*/
+
+.a9{
+padding-top:30px;
+width:385px;
+height:330px;
+font-size:24px;
+}
+
+.footlog{
+padding-top:10px;
+background-color:peachpuff;
+width:385px;
+height:90px;
+}
+
+img.FL1 {
+width:190px;
+height:90px;
+}
+
+.got{
+ margin-top: 40px;;
+padding-top:-10px;
+ color:white;
+font-size:12px;
+}
+.formlog{
+padding-top:40px;
+ color:white;
+font-size:12px;
+    font-style: normal
+}
+input[type=text ] {
+    width: 30%;
+    padding: 3px 20px;
+    margin: 17px 0;
+    border: 5px solid yellow;
+    border-radius: 3px;
+}
+
+input[type=password] {
+    width: 30%;
+    padding: 3px 20px;
+    margin: 17px 0;
+    border: 5px solid yellow;
+    border-radius: 3px;
+}
+.button {
+    background-color:#00BFFF;
+    border: none;
+    color: white;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 7px 2px;
+    cursor: pointer;
+    width: 190px;
+    height: 50px;
+    border-radius: 8px;
+	
+}
+
+nav,.nav-transparent{height: 50px;}
+	nav img#logo-nav{width:226px; height: 40px;}
+	#nav-button{width: 30px ; top: 15px;}
+	nav ul{
+		top: 50px;}
+
+}
+
